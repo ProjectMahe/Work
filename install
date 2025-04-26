@@ -1,0 +1,14 @@
+PS C:\Users\Manoj\OneDrive\Desktop\P\E-Commerce & AI-powered UX> python --version
+Python 3.13.2
+PS C:\Users\Manoj\OneDrive\Desktop\P\E-Commerce & AI-powered UX> python -m venv myenv
+PS C:\Users\Manoj\OneDrive\Desktop\P\E-Commerce & AI-powered UX> source myenv/bin/activate  # On Mac/Linux
+source : The term 'source' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ source myenv/bin/activate  # On Mac/Linux
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (source:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\Manoj\OneDrive\Desktop\P\E-Commerce & AI-powered UX> myenv\Scripts\activate     # On Windows
+(myenv) PS C:\Users\Manoj\OneDrive\Desktop\P\E-Commerce & AI-powered UX> 
